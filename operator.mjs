@@ -50,16 +50,57 @@ console.log(second);
 
 
 /***Activity three: comparison operator */
+// task 8: > and < comparison operator
 
 if (num1 > num2){
     console.log("num1 is greater :",num1);
 }
-else if(num1 <num2){
-    console.log("num2 is greter : ");
+else if (num1 < num2){
+    console.log("num2 is greter : ",num2);
 }
 
 
+//task 9 : 
+
+if (num1 >= num2){
+    console.log("num1 is greater or equal",num1);
+}
+else if (num1 <= num2){
+    console.log("num1 is lesser or equal", num1);
+
+}
+// == for the value and === strictly check the data type also
+
+let letter = "1"
+let numeric = 1
+let comparison = letter ==numeric
+console.log("equal vlaue:", comparison); // result = true
+
+let dataComparison = letter === numeric
+console.log("strictly check the value:", dataComparison); // result = false
 
 
+/****Activity -4 Logical operator */
 
+// task 11: && operator is used
 
+const fruit = ""
+const favouriteFruit = "apple"
+if (fruit && favouriteFruit){
+    console.log("and operator value:",fruit);
+
+}
+else if (fruit || favouriteFruit){
+    console.log("or operator value : ", fruit);
+}
+
+let ok = false
+if (!ok){
+    console.log("print ");
+}
+
+//**** Activity 5 :ternary operator */
+
+let ternary = -4
+const check = ternary < 0 ? "positive value" : "negative value"
+console.log("check the ternary value of number",check);
