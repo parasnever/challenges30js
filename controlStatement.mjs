@@ -134,4 +134,21 @@ let result =(numberOddEven % 2 === 0) ? "even" : "odd"
 console.log("the number is :", result);
 
 // activity 5 : Combining  conditions
-// task 7 : 
+// task 7 : check the leap year
+
+function isLeapYear(year){
+    if ((year % 4 === 0 && year % 100 !==0) || (year % 400 ===0)){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+let testYear = 2008
+if(isLeapYear(testYear)){
+    console.log(testYear + " is a leap year.");
+}
+else{
+    console.log(testYear + " is not a leap year.");
+}
