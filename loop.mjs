@@ -109,8 +109,45 @@ for(let o=1;o<=4;o++){
     console.log(row.trim());
 }
 
-//**************Activiy 5: Loop Control Statements**************** */
+/**
+ patarn like this:
+*
+* *
+* * *
+* * * *
+
+ */
+//**************Activity 5: Loop Control Statements**************** */
 
 //*******************Task 8:wap to print numbers from 1 to  10 but skip the number 5 using the continue statement ******************** */
 
 
+for  (let q = 1; q <= 10; q++){
+    if(q === 5){
+        continue
+    }
+    console.log(q);
+}
+/****
+ 
+  result:
+1
+2
+3
+4
+6
+7
+8
+9
+10
+
+ */
+////***************Task 9: wap to print numbers from 1 to 10 ,but stop the loop when the number is 7 using the break statements*********************** */
+
+console.log("this is task 9");
+for (let r = 1;r<=10;r++){
+    if(r === 7){
+        break
+    }
+    console.log(r);
+}
