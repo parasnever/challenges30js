@@ -94,3 +94,23 @@ do {
 while (n > 0)
 
     console.log(`factorial of ${numberForFactorial} is ${factorial}`);
+//**************Activity 4 : Nested loops************* */
+
+
+//**************Task 7:wap to print a pattern using nested for loops********** */
+
+
+for(let o=1;o<=4;o++){
+    let row = ""
+    for(let p = 1;p<= o;p++){
+        row += "* "
+        
+    }
+    console.log(row.trim());
+}
+
+//**************Activiy 5: Loop Control Statements**************** */
+
+//*******************Task 8:wap to print numbers from 1 to  10 but skip the number 5 using the continue statement ******************** */
+
+
